@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button as RNButton } from 'react-native';
+import { Button as RNButton } from 'react-native/';
 import { ButtonProps } from './api';
 
 const noop = () => null;
