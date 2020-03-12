@@ -1,0 +1,42 @@
+{
+  "name": "react-universal-design-system",
+  "version": "0.0.0-development",
+  "description": "An universal design system for react ecosystem",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev-web": "start-storybook",
+    "dev-rn": "expo start",
+    "dev-rn-android": "expo start --android",
+    "dev-rn-ios": "expo start --ios",
+    "dev-rn-web": "expo start --web"
+  },
+  "repository": "https://github.com/ameerthehacker/react-universal-design-system",
+  "author": "ameerthehacker",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@storybook/preset-typescript": "^2.1.0",
+    "@storybook/react": "^5.3.14",
+    "@storybook/react-native": "^5.3.14",
+    "@types/node": "^13.9.0",
+    "@types/react-native": "^0.61.21",
+    "react-scripts": "^3.4.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0",
+    "expo": "^36.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-native": "^0.61.5",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-web": "~0.11.7"
+  }
+}
